@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1011198519654",
+    "firebase_url": "https://tugasakhir-ba915.firebaseio.com",
+    "project_id": "tugasakhir-ba915",
+    "storage_bucket": "tugasakhir-ba915.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1011198519654:android:8bb99fd71c8e50cd0580a7",
+        "android_client_info": {
+          "package_name": "com.example.latihan123"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1011198519654-7934q1cc2t3luh70756e336b8o0ij1g4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.latihan123",
+            "certificate_hash": "fb7a0efe23a98b8f0c9ecaaf8c724d050dc2021a"
+          }
+        },
+        {
+          "client_id": "1011198519654-8i1vitjku887h3a7tta1n3ver9be5l3m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuo7gj5tLI2ExcFWBN_kJRaFlwqHQf90s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1011198519654-8i1vitjku887h3a7tta1n3ver9be5l3m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

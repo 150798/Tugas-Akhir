@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    // R=1 G=12 B=38
+    <color name="colorPrimary">#000C26</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="blue">#25A2B3</color>
+    <color name="white123">#F0F3F3</color>
+    <color name="grey">#ACC0C0</color>
+    <color name="green">#26C72C</color>
+    <color name="back">#1630BB</color>
+    <color name="putih">#F3EDEF</color>
+    <color name="tosca">#0C8074</color>
+    <color name="back1">#020614</color>
+    <color name="title">#DBDCE0</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red">#DF2E2E</color>
+</resources>
