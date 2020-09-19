@@ -22,12 +22,12 @@ public class MainActivity extends AppCompatActivity {
 
 
     private String urllogin = "https://tugasakhir-ba915.firebaseio.com/login.json";
-
+// identifikasi database firabse
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main); // menunjukkan di layout mana
 
         // membuat tulisan toolbar diatas
         setTitle("Control and Monitoring");
@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
                     if(respon.getString("status").equals("200")){
 
 
-                        // kao statusnya 200 nanti yg dilakukan --> dia menyimpan username ke session.
+                        // kalo statusnya 200 nanti yg dilakukan --> dia menyimpan username ke session.
                         session.createLoginSession(username);
                         // Fungsinya untuk ganti halaman.
                         Intent intent=new Intent(MainActivity.this,Menu.class);

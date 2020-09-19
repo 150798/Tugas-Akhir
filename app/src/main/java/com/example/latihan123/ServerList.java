@@ -8,4 +8,5 @@ public class ServerList {
     public static String urlSimpanStatusSaklar = baseURL + "insert.php";
     public static String urlHistoryUpdate = baseURL + "history.php";
     public static String urlLogin = baseURL + "login.php";
+
 }

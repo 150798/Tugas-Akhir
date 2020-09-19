@@ -2,9 +2,10 @@
         <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
             xmlns:app="http://schemas.android.com/apk/res-auto"
             xmlns:tools="http://schemas.android.com/tools"
+
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/back"
+            android:background="@color/white"
             tools:context=".Menu"
             >
 
@@ -15,10 +16,19 @@
                 android:gravity="center"
                 >
 
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/menu"
+                    android:layout_marginTop="100dp"
+                    android:layout_alignParentTop="true"
+                    android:rotation="90"
+                    android:id="@+id/gambarmenu"/>
+
                 <Button
                     android:layout_width="300dp"
-                    android:layout_height="175dp"
-                    android:background="@drawable/satu"
+                    android:layout_height="150dp"
+                    android:background="@drawable/remote123"
                     android:id="@+id/satu"
                     android:layout_marginTop="2.5dp"
                     android:layout_marginBottom="2.5dp">
@@ -26,18 +36,20 @@
 
                 <Button
                     android:layout_width="300dp"
-                    android:layout_height="175dp"
-                    android:background="@drawable/dua"
+                    android:layout_height="150dp"
+                    android:background="@drawable/historyupdate1"
                     android:id="@+id/dua"
                     android:layout_marginTop="2.5dp"
                     android:layout_marginBottom="2.5dp">
                 </Button>
 
                 <Button
-                    android:layout_width="300dp"
-                    android:layout_height="175dp"
-                    android:background="@drawable/tiga"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/back"
+                    android:layout_marginLeft="100dp"
                     android:id="@+id/tiga"
+                    android:rotation="90"
                     android:layout_marginTop="2.5dp"
                     android:layout_marginBottom="2.5dp">
                 </Button>

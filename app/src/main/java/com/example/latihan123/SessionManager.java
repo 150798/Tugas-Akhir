@@ -73,6 +73,7 @@ public class SessionManager {
 
         logoutIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         context.startActivity(logoutIntent);
+
     }
 
     /**
